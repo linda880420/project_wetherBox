@@ -1,9 +1,13 @@
 html,
 body {
-    width: calc(100vw - 15px);
+    width: 100vw;
     height: 100vh;
 }
 
+html{
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
 * {
     padding: 0px;
     margin: 0px;
